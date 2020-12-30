@@ -8,14 +8,6 @@ class CommentsController < ApplicationController
       @comments = @prototype.comments
       render "prototypes/show"
     end
-    # #Comment.create(comment_params)
-    # @prototype = Prototype.find(params[:prototype_id])
-    # @comment = @prototype.comments.new(comment_params)
-    # if @comment.save
-    #   redirect_to prototype_path(comment.prototype.id)
-    # else
-    #   render "prototypes/show"
-    # end
   end
 
   private
